@@ -39,26 +39,6 @@ body {
 	flex-wrap: wrap;
 
 }
-#titol {
-	width: 55%;
-	border: var(--blanc) solid 4px;
-	padding-left: 1%;
-	margin-right: 2%;
-}
-
-#ultart {
-	width: 22%;
-	border: var(--blanc) solid 4px;
-	padding-left: 1%;
-}
-#ultart a:link {
-	color: var(--blanc);
-
-}
-#ultart a:visited {
-	color: var(--blanc);
-}
-
 
 header {
 	background-color: var(--bgHeader);
@@ -70,7 +50,6 @@ header {
 	flex-direction: row;
 	flex-wrap: wrap;
 	padding-left: 0;
-	/*justify-content: space-between;*/
 }
 
 main {
@@ -80,18 +59,11 @@ main {
 
 }
 
-
-footer {
-	width: 100%;
-	height: 15%;
-	background-color: var(--bgFooter);
-	color: var(--blanc);
-	font-size: 20px;
-	align-items: center;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+.ampolla-img {
+	width: auto;
+	height: 180px;
 }
+
 header a {
 	margin-left: 0;
 	text-decoration: none;
@@ -102,37 +74,4 @@ header a {
 header img {
 	height: 100px;
 	width: 100px;
-}
-
-#social a:link {
-	color: var(--blanc);
-
-}
-#social a:visited {
-	color: var(--blanc);
-
-}
-
-footer address {
-	width: 20%;
-}
-
-#legal {
-	width: 60%;
-}
-main img {
-	width: 400px;
-}
-
-main table {
-	width: 100%;
-}
-
-aside a:link {
-	color: var(--negre);
-
-}
-aside a:visited {
-	color: var(--negre);
-
 }
