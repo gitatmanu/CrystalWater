@@ -50,6 +50,7 @@ header {
 	flex-direction: row;
 	flex-wrap: wrap;
 	padding-left: 0;
+	color: #fff;
 }
 
 main {
@@ -62,6 +63,12 @@ main {
 .ampolla-img {
 	width: auto;
 	height: 180px;
+}
+.customFooter {
+	background-color: rgb(236, 216, 159);
+	height: 180px;
+	justify-content: space-between;
+	display: flex;
 }
 
 header a {
